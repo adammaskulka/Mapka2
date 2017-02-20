@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Nastavenia">
+
+    <EditTextPreference
+        android:defaultValue="10"
+        android:inputType="number"
+        android:key="distance"
+        android:selectAllOnFocus="true"
+        android:title="Minimálna vzdialenosť" />
+
+    <EditTextPreference
+        android:defaultValue="60"
+        android:inputType="number"
+        android:key="time"
+        android:selectAllOnFocus="true"
+        android:title="Čas refreshu" />
+
+</PreferenceScreen>
